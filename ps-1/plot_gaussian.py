@@ -15,8 +15,11 @@ ax.set_title('Gaussian')
 ax.set_xticks(label)
 ax.text(-9, 0.11, r'$\mu=0, \sigma=3$', fontsize=12)
 ax.grid(False)
+ax.set_xlabel('x')
+ax.set_ylabel('f(x)')
 #save plot
 fig.savefig('gaussian.png')
+#show plot
 plt.show()
 
 

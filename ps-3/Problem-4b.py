@@ -73,6 +73,6 @@ plt.title('Kurtosis vs N')
 plt.grid(True)
 
 plt.tight_layout()
-plt.savefig('central limit theorem.png')
+#plt.savefig('central limit theorem.png')
 plt.show()
 
